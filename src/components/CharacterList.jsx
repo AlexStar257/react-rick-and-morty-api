@@ -47,9 +47,14 @@ export const CharacterList = () => {
           {characters.map((character) => (
             <div key={character.id} className="col-md-4">
               <Character
+                id={character.id}
                 name={character.name}
                 image={character.image}
                 location={character.location.name}
+                status={character.status}
+                type={character.type}
+                gender={character.gender}
+                origin={character.origin.name}
               />
             </div>
           ))}

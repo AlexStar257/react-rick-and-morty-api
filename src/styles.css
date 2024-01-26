@@ -1,0 +1,30 @@
+.modalOverlay {
+    background-color: rgba(0, 0, 0, 0.850);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    text-align:justify;
+    color: aliceblue;
+  }
+  
+  .modalImage {
+    border-radius: 50%;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 250px;
+  }
+  
+  /* Estilos para el botón de cerrar el modal */
+  .closeButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007BFF;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+  }

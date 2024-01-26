@@ -1,5 +1,6 @@
 import { CharacterList } from "./components/CharacterList";
 import 'bootstrap/dist/css/bootstrap.min.css'
+import '../src/styles.css'
 
 export const App = () => {
   return(
